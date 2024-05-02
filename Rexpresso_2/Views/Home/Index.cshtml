@@ -1,0 +1,353 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header border-0">
+                <div class="d-flex justify-content-between">
+                    <h3 class="card-title">Online Store Visitors</h3>
+                    <a href="javascript:void(0);">View Report</a>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="d-flex">
+                    <p class="d-flex flex-column">
+                        <span class="text-bold text-lg">820</span>
+                        <span>Visitors Over Time</span>
+                    </p>
+                    <p class="ml-auto d-flex flex-column text-right">
+                        <span class="text-success">
+                            <i class="fas fa-arrow-up"></i> 12.5%
+                        </span>
+                        <span class="text-muted">Since last week</span>
+                    </p>
+                </div>
+                <!-- /.d-flex -->
+
+                <div class="position-relative mb-4">
+                    <canvas id="visitors-chart" height="200"></canvas>
+                </div>
+
+                <div class="d-flex flex-row justify-content-end">
+                    <span class="mr-2">
+                        <i class="fas fa-square text-primary"></i> This Week
+                    </span>
+
+                    <span>
+                        <i class="fas fa-square text-gray"></i> Last Week
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- /.card -->
+
+        <div class="card">
+            <div class="card-header border-0">
+                <h3 class="card-title">Products</h3>
+                <div class="card-tools">
+                    <a href="#" class="btn btn-tool btn-sm">
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <a href="#" class="btn btn-tool btn-sm">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="card-body table-responsive p-0">
+                <table class="table table-striped table-valign-middle">
+                    <thead>
+                        <
+                        <div class="container">
+                            <div class="menu-category">
+                                <h2>Drinks</h2>
+                                <div class="menu-item">
+                                    <img src="C:\Users\XX610\Downloads\rexpresso2\rexpresso2\rexpresso2\prod1.webp" alt="Rexpresso 1">
+                                    <div class="menu-item-details">
+                                        <div class="menu-item-name">Rexpresso Classic</div>
+                                        <div class="menu-item-description">Our signature espresso blend crafted to perfection, delivering a rich and bold flavor with every sip.</div>
+                                        <div class="menu-item-price">$3.95</div>
+                                    </div>
+                                    <button class="edit-item-button" onclick="editItem(this)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                            <path d="M12.828.828a1 1 0 0 1 1.414 0l1 1a1 1 0 0 1 0 1.414L2.89 15H1a1 1 0 0 1-1-1V13a1 1 0 0 1 .293-.707l10-10z" />
+                                            <path fill-rule="evenodd" d="M13.146.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-1 1a.5.5 0 0 1-.708 0L12.146 1.854a.5.5 0 0 1 0-.708z" />
+                                            <path fill-rule="evenodd" d="M2.5 13.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-4-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3z" />
+                                        </svg>
+                                    </button>
+                                    <button class="delete-item-button" onclick="deleteItem(this)">Delete</button>
+                                </div>
+                                <div class="menu-item">
+                                    <img src="C:\Users\XX610\Downloads\rexpresso2\rexpresso2\rexpresso2\prod2.png" alt="Rexpresso 2">
+                                    <div class="menu-item-details">
+                                        <div class="menu-item-name">Rexpresso Mocha</div>
+                                        <div class="menu-item-description">Indulge in the velvety smoothness of our classic espresso paired with decadent chocolate for a delightful mocha experience.</div>
+                                        <div class="menu-item-price">$4.45</div>
+                                    </div>
+                                    <button class="edit-item-button" onclick="editItem(this)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                            <path d="M12.828.828a1 1 0 0 1 1.414 0l1 1a1 1 0 0 1 0 1.414L2.89 15H1a1 1 0 0 1-1-1V13a1 1 0 0 1 .293-.707l10-10z" />
+                                            <path fill-rule="evenodd" d="M13.146.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-1 1a.5.5 0 0 1-.708 0L12.146 1.854a.5.5 0 0 1 0-.708z" />
+                                            <path fill-rule="evenodd" d="M2.5 13.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-4-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3z" />
+                                        </svg>
+                                    </button>
+                                    <button class="delete-item-button" onclick="deleteItem(this)">Delete</button>
+                                </div>
+                                <<div class="menu-item">
+                                    <img src="C:\Users\XX610\Downloads\rexpresso2\rexpresso2\rexpresso2\prod2.png" alt="Rexpresso 2">
+                                    <div class="menu-item-details">
+                                        <div class="menu-item-name">Rexpresso Mocha</div>
+                                        <div class="menu-item-description">Indulge in the velvety smoothness of our classic espresso paired with decadent chocolate for a delightful mocha experience.</div>
+                                        <div class="menu-item-price">$4.45</div>
+                                    </div>
+                                    <button class="edit-item-button" onclick="editItem(this)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                            <path d="M12.828.828a1 1 0 0 1 1.414 0l1 1a1 1 0 0 1 0 1.414L2.89 15H1a1 1 0 0 1-1-1V13a1 1 0 0 1 .293-.707l10-10z" />
+                                            <path fill-rule="evenodd" d="M13.146.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-1 1a.5.5 0 0 1-.708 0L12.146 1.854a.5.5 0 0 1 0-.708z" />
+                                            <path fill-rule="evenodd" d="M2.5 13.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-4-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3z" />
+                                        </svg>
+                                    </button>
+                                    <button class="delete-item-button" onclick="deleteItem(this)">Delete</button>
+                                </div>
+                                <div class="container">
+                                    <div class="menu-category">
+                                        <h2>Dessert</h2>
+                                        <div class="menu-item">
+                                            <img src="C:\Users\XX610\Downloads\rexpresso2\rexpresso2\rexpresso2\prod1.webp" alt="Rexpresso 1">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Rexpresso Classic</div>
+                                                <div class="menu-item-description">Our signature espresso blend crafted to perfection, delivering a rich and bold flavor with every sip.</div>
+                                                <div class="menu-item-price">$3.95</div>
+                                            </div>
+                                            <button class="edit-item-button" onclick="editItem(this)">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                                    <path d="M12.828.828a1 1 0 0 1 1.414 0l1 1a1 1 0 0 1 0 1.414L2.89 15H1a1 1 0 0 1-1-1V13a1 1 0 0 1 .293-.707l10-10z" />
+                                                    <path fill-rule="evenodd" d="M13.146.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-1 1a.5.5 0 0 1-.708 0L12.146 1.854a.5.5 0 0 1 0-.708z" />
+                                                    <path fill-rule="evenodd" d="M2.5 13.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-4-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3z" />
+                                                </svg>
+                                            </button>
+                                            <button class="delete-item-button" onclick="deleteItem(this)">Delete</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="menu-category">
+                                        <h2>Snacks</h2>
+                                        <div class="menu-item">
+                                            <img src="C:\Users\XX610\Downloads\rexpresso2\rexpresso2\rexpresso2\prod1.webp" alt="Rexpresso 1">
+                                            <div class="menu-item-details">
+                                                <div class="menu-item-name">Rexpresso Classic</div>
+                                                <div class="menu-item-description">Our signature espresso blend crafted to perfection, delivering a rich and bold flavor with every sip.</div>
+                                                <div class="menu-item-price">$3.95</div>
+                                            </div>
+                                            <button class="edit-item-button" onclick="editItem(this)">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                                    <path d="M12.828.828a1 1 0 0 1 1.414 0l1 1a1 1 0 0 1 0 1.414L2.89 15H1a1 1 0 0 1-1-1V13a1 1 0 0 1 .293-.707l10-10z" />
+                                                    <path fill-rule="evenodd" d="M13.146.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-1 1a.5.5 0 0 1-.708 0L12.146 1.854a.5.5 0 0 1 0-.708z" />
+                                                    <path fill-rule="evenodd" d="M2.5 13.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-4-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3zm-1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h2zm1-1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14a.5.5 0 0 1 .5-.5h3z" />
+                                                </svg>
+                                            </button>
+                                            <button class="delete-item-button" onclick="deleteItem(this)">Delete</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="myModal" class="modal">
+                                    <div class="modal-content">
+                                        <span class="close" onclick="closeModal()">&times;</span>
+                                        <h2 style="color: black; font-family: Arial, sans-serif;">Add Product</h2>
+                                        <form id="addProductForm">
+                                            <label for="productName" style="color: black;">Item Name:</label><br>
+                                            <input type="text" id="productName" name="productName"><br>
+                                            <label for="productPrice" style="color: black;">Item Price:</label><br>
+                                            <input type="text" id="productPrice" name="productPrice"><br>
+                                            <label for="productDescription" style="color: black;">Item Description:</label><br>
+                                            <textarea id="productDescription" name="productDescription"></textarea><br>
+                                            <label for="productType" style="color: black;">Type:</label><br>
+                                            <input type="text" id="productType" name="productType"><br>
+                                            <label for="productImage" style="color: black;">Item Image:</label><br>
+                                            <input type="file" id="productImage" name="productImage"><br><br>
+                                            <input type="submit" value="Submit">
+                                        </form>
+                                    </div>
+                                </div>
+
+
+                                <script>
+                                    // Function to open modal
+                                    function openModal() {
+                                        modal.style.display = "block";
+                                    }
+
+                                    // Function to close modal
+                                    function closeModal() {
+                                        modal.style.display = "none";
+                                    }
+
+                                    // Function to delete item
+                                    function deleteItem(button) {
+                                        var item = button.parentNode;
+                                        item.parentNode.removeChild(item);
+                                    }
+
+                                    // Function to edit item
+                                    function editItem(button) {
+                                        var item = button.parentNode;
+                                        var name = item.querySelector('.menu-item-name').innerText;
+                                        var description = item.querySelector('.menu-item-description').innerText;
+                                        var price = item.querySelector('.menu-item-price').innerText;
+
+                                        var newName = prompt('Enter new name:', name);
+                                        var newDescription = prompt('Enter new description:', description);
+                                        var newPrice = prompt('Enter new price:', price);
+
+                                        if (newName && newDescription && newPrice) {
+                                            item.querySelector('.menu-item-name').innerText = newName;
+                                            item.querySelector('.menu-item-description').innerText = newDescription;
+                                            item.querySelector('.menu-item-price').innerText = newPrice;
+                                        }
+                                    }
+
+                                    // Function to save changes
+                                    function saveChanges() {
+                                        // Add save changes functionality here
+                                    }
+
+                                    // Get references to elements
+                                    var modal = document.getElementById("myModal");
+                                    var addProductForm = document.getElementById("addProductForm");
+
+                                    // Add event listener for modal close button
+                                    document.getElementsByClassName("close")[0].addEventListener("click", closeModal);
+
+                                    // Add event listener for add product button
+                                    document.getElementsByClassName("add-products-button")[0].addEventListener("click", openModal);
+
+                                    // Add event listeners for delete buttons
+                                    var deleteButtons = document.querySelectorAll(".delete-item-button");
+                                    deleteButtons.forEach(function (button) {
+                                        button.addEventListener("click", function () {
+                                            deleteItem(button);
+                                        });
+                                    });
+
+                                    // Add event listeners for edit buttons
+                                    var editButtons = document.querySelectorAll(".edit-item-button");
+                                    editButtons.forEach(function (button) {
+                                        button.addEventListener("click", function () {
+                                            editItem(button);
+                                        });
+                                    });
+
+                                    // Add event listener for form submission
+                                    addProductForm.addEventListener("submit", function (event) {
+                                        event.preventDefault(); // Prevent form submission
+                                        // Add product to menu
+                                        // Your code here to add the product to the menu
+                                        closeModal(); // Close modal after adding product
+                                    });
+                                </script>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- /.card -->
+    </div>
+    <!-- /.col-md-6 -->
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header border-0">
+                <div class="d-flex justify-content-between">
+                    <h3 class="card-title">Sales</h3>
+                    <a href="javascript:void(0);">View Report</a>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="d-flex">
+                    <p class="d-flex flex-column">
+                        <span class="text-bold text-lg">$18,230.00</span>
+                        <span>Sales Over Time</span>
+                    </p>
+                    <p class="ml-auto d-flex flex-column text-right">
+                        <span class="text-success">
+                            <i class="fas fa-arrow-up"></i> 33.1%
+                        </span>
+                        <span class="text-muted">Since last month</span>
+                    </p>
+                </div>
+                <!-- /.d-flex -->
+
+                <div class="position-relative mb-4">
+                    <canvas id="sales-chart" height="200"></canvas>
+                </div>
+
+                <div class="d-flex flex-row justify-content-end">
+                    <span class="mr-2">
+                        <i class="fas fa-square text-primary"></i> This year
+                    </span>
+
+                    <span>
+                        <i class="fas fa-square text-gray"></i> Last year
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- /.card -->
+
+        <div class="card">
+            <div class="card-header border-0">
+                <h3 class="card-title">Online Store Overview</h3>
+                <div class="card-tools">
+                    <a href="#" class="btn btn-sm btn-tool">
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <a href="#" class="btn btn-sm btn-tool">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center border-bottom mb-3">
+                    <p class="text-success text-xl">
+                        <i class="ion ion-ios-refresh-empty"></i>
+                    </p>
+                    <p class="d-flex flex-column text-right">
+                        <span class="font-weight-bold">
+                            <i class="ion ion-android-arrow-up text-success"></i> 12%
+                        </span>
+                        <span class="text-muted">CONVERSION RATE</span>
+                    </p>
+                </div>
+                <!-- /.d-flex -->
+                <div class="d-flex justify-content-between align-items-center border-bottom mb-3">
+                    <p class="text-warning text-xl">
+                        <i class="ion ion-ios-cart-outline"></i>
+                    </p>
+                    <p class="d-flex flex-column text-right">
+                        <span class="font-weight-bold">
+                            <i class="ion ion-android-arrow-up text-warning"></i> 0.8%
+                        </span>
+                        <span class="text-muted">SALES RATE</span>
+                    </p>
+                </div>
+                <!-- /.d-flex -->
+                <div class="d-flex justify-content-between align-items-center mb-0">
+                    <p class="text-danger text-xl">
+                        <i class="ion ion-ios-people-outline"></i>
+                    </p>
+                    <p class="d-flex flex-column text-right">
+                        <span class="font-weight-bold">
+                            <i class="ion ion-android-arrow-down text-danger"></i> 1%
+                        </span>
+                        <span class="text-muted">REGISTRATION RATE</span>
+                    </p>
+                </div>
+                <!-- /.d-flex -->
+            </div>
+        </div>
+    </div>
+    <!-- /.col-md-6 -->
+</div>
+<!-- /.row -->
+      </div>
