@@ -1,60 +1,52 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Products</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
+﻿@model List<Product>
+@{
+}
 
-        table, th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
+<h2 class="text-center mb-5">List Of Products</h2>
 
-        th {
-            background-color: #f2f2f2;
-        }
+<div class="row mb-5">
+    <div class="col">
+        <a class="btn btn-primary" asp-controller="Products" asp-action="Create">New Product</a>
+    </div>
+    <div class="col">
 
-        img {
-            max-width: 100px;
-            max-height: 100px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Admin Products</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Product ID</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-                <th>Photo</th>
-            </tr>
-        </thead>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Image</th>
+            <th>Created At</th>
+            <th>Action</th>
+        </tr>
         <tbody>
-            <tr>
-                <td>1</td>
-                <td>Product A</td>
-                <td>Description of Product A</td>
-                <td>$19.99</td>
-                <td><img src="product_a.jpg" alt="Product A"></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Product B</td>
-                <td>Description of Product B</td>
-                <td>$29.99</td>
-                <td><img src="product_b.jpg" alt="Product B"></td>
-            </tr>
-            <!-- Add more rows for additional products -->
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.Description</td>
+                    <td>@product.Category</td>
+                    <td>@product.Price</td>
+                    <td>@product.Quantity</td>
+                    <td><img src="/imgs/@product.ImageFileName" width="100" /></td>
+                    <td>@product.CreatedAt.ToString("MM/dd/yyyy")</td>
+                    <td style="white-space:nowrap">
+                        <a class="btn btn-primary btn-sm" asp-controller="Products" asp-action="Edit"
+                            asp-route-id="@product.Id">Edit</a>
+                        <a class="btn btn-danger btn-sm" asp-controller="Products" asp-action="Delete"
+                            asp-route-id="@product.Id">Delete</a>
+                    </td>
+
+                </tr>
+            }
         </tbody>
-    </table>
-</body>
-</html>
+    </thead>
+</table>
