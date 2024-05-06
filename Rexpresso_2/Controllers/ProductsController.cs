@@ -16,7 +16,7 @@ namespace Rexpresso_2.Controllers
         }
         public IActionResult Index()
         {
-            var products= context.Products.OrderByDescending(p => p.Id).ToList();
+            var products = context.Products.OrderByDescending(p => p.Id).ToList();
             return View(products);
         }
 
@@ -28,13 +28,13 @@ namespace Rexpresso_2.Controllers
         [HttpPost]
         public IActionResult Create(ProductDto productDto)
         {
-            if(productDto.ImageFile == null) 
+            if (productDto.ImageFile == null)
             {
                 ModelState.AddModelError("ImageFile", "The image file is required");
             }
-            if(!ModelState.IsValid) 
+            if (!ModelState.IsValid)
             {
-             return View(productDto);
+                return View(productDto);
             }
 
             // save the image file
@@ -42,7 +42,7 @@ namespace Rexpresso_2.Controllers
             newFileName += Path.GetExtension(productDto.ImageFile!.FileName);
 
             string imageFullPath = environment.WebRootPath + "/imgs/" + newFileName;
-            using( var stream = System.IO.File.Create(imageFullPath))
+            using (var stream = System.IO.File.Create(imageFullPath))
             {
                 productDto.ImageFile.CopyTo(stream);
             }
@@ -56,7 +56,7 @@ namespace Rexpresso_2.Controllers
                 Quantity = productDto.Quantity,
                 ImageFileName = newFileName,
                 CreatedAt = DateTimeOffset.Now,
-                
+
             };
 
             context.Products.Add(product);
@@ -65,14 +65,14 @@ namespace Rexpresso_2.Controllers
             return RedirectToAction("Index", "Products");
         }
 
-       public IActionResult Edit(int id) 
+        public IActionResult Edit(int id)
         {
             var product = context.Products.Find(id);
 
-            if(product == null)
-              {
+            if (product == null)
+            {
                 return RedirectToAction("Index", "Products");
-              }
+            }
 
 
             //create productDto from product
@@ -97,12 +97,12 @@ namespace Rexpresso_2.Controllers
         public IActionResult Edit(int id, ProductDto productDto)
         {
             var product = context.Products.Find(id);
-            if(product == null)
+            if (product == null)
             {
                 return RedirectToAction("Index", "Products");
             }
 
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 ViewData["ProductId"] = product.Id;
                 ViewData["ImageFileName"] = product.ImageFileName;
@@ -113,7 +113,7 @@ namespace Rexpresso_2.Controllers
 
             //update the image file if we have a new image file
             string newFileName = product.ImageFileName;
-            if (productDto.ImageFile != null) 
+            if (productDto.ImageFile != null)
             {
                 newFileName = DateTime.Now.ToString("yyyyMMddHHmmssfff");
                 newFileName += Path.GetExtension(productDto.ImageFile.FileName);
@@ -140,7 +140,26 @@ namespace Rexpresso_2.Controllers
             context.SaveChanges();
 
             return RedirectToAction("Index", "Products");
-            
+
+        }
+
+        public IActionResult Delete(int id)
+        {
+            var product = context.Products.Find(id);
+            if (product == null)
+            {
+                return RedirectToAction("Index", "Products");
+            }
+
+            string imageFullPath = environment.WebRootPath + "/imgs/" + product.ImageFileName;
+            System.IO.File.Delete(imageFullPath);
+
+            context.Products.Remove(product);
+            context.SaveChanges(true);
+
+            return RedirectToAction("Index", "Products");
+
+
         }
     }
 }
