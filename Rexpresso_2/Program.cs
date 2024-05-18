@@ -1,19 +1,30 @@
 
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Rexpresso_2.Models;
 using Rexpresso_2.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-    
+
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ICartService, CartService>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseSqlServer(connectionString);
 });
+
+builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = false;
+})
+.AddRoles<IdentityRole>()
+.AddEntityFrameworkStores<ApplicationDbContext>();
+
 
 var app = builder.Build();
 

@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\menupage\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\menupage\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\menupage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\menupage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\controllers\\menupagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\controllers\\menupagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Migrations\\20240506134852_SecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Rexpresso_2\\Migrations\\20240506134852_SecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Migrations\\20240506134256_SecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Rexpresso_2\\Migrations\\20240506134256_SecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,32 +51,67 @@
       "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\home\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\models\\cartdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\models\\cartdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Timothy Noel Romares\\node_modules\\@types\\node\\globals.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\models\\userlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\models\\userlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\admin\\userslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\admin\\userslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\client\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\client\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\client\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\client\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\client\\productspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\client\\productspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|c:\\users\\timothy noel romares\\onedrive\\documents\\elnet\\rexpresso_2\\rexpresso_2\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C14F1CB-2A2A-4310-92D0-2358DF283248}|Rexpresso_2\\Rexpresso_2.csproj|solutionrelative:rexpresso_2\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,34 +121,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240506134852_SecondMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Migrations\\20240506134852_SecondMigration.cs",
-              "RelativeDocumentMoniker": "Rexpresso_2\\Migrations\\20240506134852_SecondMigration.cs",
-              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Migrations\\20240506134852_SecondMigration.cs",
-              "RelativeToolTip": "Rexpresso_2\\Migrations\\20240506134852_SecondMigration.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T13:48:52.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Services\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Rexpresso_2\\Services\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Services\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Rexpresso_2\\Services\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T13:41:36.096Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
@@ -96,126 +133,347 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20240506134256_SecondMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Migrations\\20240506134256_SecondMigration.cs",
-              "RelativeDocumentMoniker": "Rexpresso_2\\Migrations\\20240506134256_SecondMigration.cs",
-              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Migrations\\20240506134256_SecondMigration.cs",
-              "RelativeToolTip": "Rexpresso_2\\Migrations\\20240506134256_SecondMigration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T13:42:57.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Rexpresso_2\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAK4AAAAAAAAAAAAAAC8AAAArAAAA",
+              "DocumentIndex": 0,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\MenuPage\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\MenuPage\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\MenuPage\\Cart.cshtml",
+              "RelativeToolTip": "Rexpresso_2\\Views\\MenuPage\\Cart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T06:24:32.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Products\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Products\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Products\\Edit.cshtml",
-              "RelativeToolTip": "Rexpresso_2\\Views\\Products\\Edit.cshtml",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAAAF4AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T13:39:31.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Rexpresso_2\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Rexpresso_2\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAwwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T12:09:53.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Products\\Create.cshtml",
-              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Products\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Products\\Create.cshtml",
-              "RelativeToolTip": "Rexpresso_2\\Views\\Products\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T11:28:29.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\ProductDto.cs",
-              "RelativeDocumentMoniker": "Rexpresso_2\\Models\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\ProductDto.cs",
-              "RelativeToolTip": "Rexpresso_2\\Models\\ProductDto.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAgwA4AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T11:01:04.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Rexpresso_2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAABkAAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T04:22:37.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "Rexpresso_2\\Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T03:28:43.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Rexpresso_2\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Rexpresso_2\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAqwJ8AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T03:26:45.694Z",
+              "WhenOpened": "2024-05-18T02:41:00.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Services\\CartService.cs",
+              "RelativeToolTip": "Rexpresso_2\\Services\\CartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T02:36:51.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Services\\ICartService.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Services\\ICartService.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Services\\ICartService.cs",
+              "RelativeToolTip": "Rexpresso_2\\Services\\ICartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T02:35:54.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Program.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Program.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Program.cs",
+              "RelativeToolTip": "Rexpresso_2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T02:24:32.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuPageController.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\MenuPageController.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Controllers\\MenuPageController.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\MenuPageController.cs",
+              "RelativeToolTip": "Rexpresso_2\\Controllers\\MenuPageController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:38:46.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\MenuPage\\Index.cshtml",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\MenuPage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\MenuPage\\Index.cshtml",
+              "RelativeToolTip": "Rexpresso_2\\Views\\MenuPage\\Index.cshtml",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAgwKgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T07:09:24.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Rexpresso_2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T17:42:48.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "Rexpresso_2\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:55:00.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\Product.cs",
+              "RelativeToolTip": "Rexpresso_2\\Models\\Product.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:46:23.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Services\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Services\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Services\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Rexpresso_2\\Services\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:14:18.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Rexpresso_2\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Rexpresso_2\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-17T17:44:56.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Rexpresso_2\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T14:49:01.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Home\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Home\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Home\\_Layout.cshtml",
               "RelativeToolTip": "Rexpresso_2\\Views\\Home\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAP8AAAArAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAswDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-01T15:00:36.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T09:17:48.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Rexpresso_2\\Controllers\\ClientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:36:55.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\CartDetail.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Models\\CartDetail.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\CartDetail.cs",
+              "RelativeToolTip": "Rexpresso_2\\Models\\CartDetail.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:00:27.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\Order.cs",
+              "RelativeToolTip": "Rexpresso_2\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:38:05.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Rexpresso_2\\Models\\OrderDetail.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:47:56.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "globals.d.ts",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\node_modules\\@types\\node\\globals.d.ts",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\node_modules\\@types\\node\\globals.d.ts",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\node_modules\\@types\\node\\globals.d.ts",
+              "RelativeToolTip": "..\\..\\..\\..\\node_modules\\@types\\node\\globals.d.ts",
+              "ViewState": "AQIAAJgBAAAAAAAAAAAAAJYBAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-16T18:00:15.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Models\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\OrderStatus.cs",
+              "RelativeToolTip": "Rexpresso_2\\Models\\OrderStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:38:50.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\UserListViewModel.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Models\\UserListViewModel.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\UserListViewModel.cs",
+              "RelativeToolTip": "Rexpresso_2\\Models\\UserListViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:35:36.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Rexpresso_2\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:22:52.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Rexpresso_2\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:13:36.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Rexpresso_2\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T02:15:11.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UsersList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Admin\\UsersList.cshtml",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Admin\\UsersList.cshtml",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Admin\\UsersList.cshtml",
+              "RelativeToolTip": "Rexpresso_2\\Views\\Admin\\UsersList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T02:17:30.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Client\\checkout.cshtml",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Client\\checkout.cshtml",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Client\\checkout.cshtml",
+              "RelativeToolTip": "Rexpresso_2\\Views\\Client\\checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T09:36:17.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Client\\cart.cshtml",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Client\\cart.cshtml",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Client\\cart.cshtml",
+              "RelativeToolTip": "Rexpresso_2\\Views\\Client\\cart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T09:35:13.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Productspage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Client\\Productspage.cshtml",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Client\\Productspage.cshtml",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Client\\Productspage.cshtml",
+              "RelativeToolTip": "Rexpresso_2\\Views\\Client\\Productspage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T09:34:53.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Rexpresso_2\\Views\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Timothy Noel Romares\\OneDrive\\Documents\\ELNET\\Rexpresso_2\\Rexpresso_2\\Views\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Rexpresso_2\\Views\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T09:04:11.272Z"
             }
           ]
         }

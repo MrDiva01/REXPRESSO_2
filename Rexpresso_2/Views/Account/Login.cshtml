@@ -1,0 +1,43 @@
+﻿@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="row">
+    <div class="col-md-4 mx-auto rounded border p-3">
+        <h2 class="text-center mb-3">LOGIN PAGE</h2>
+        <hr />
+        @if (ViewData["ErrorMessage"] != null)
+        {
+            <div class="text-danger">@ViewData["ErrorMessage"]</div>
+        }
+
+        <form asp-action="Login" asp-controller="Account" method="post">
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" name="Email" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" id="Password" name="Password" />
+            </div>
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" name="RememberMe" /> Remember me
+                </label>
+            </div>
+            <div class="row mb-3">
+                <div class="offset-sm-4 col-sm-4">
+                    <button type="submit" class="btn btn-primary">Log in</button>
+                </div>
+                <div class="col">
+                    <a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+                </div>
+            </div>
+            <div>
+                <a class="btn btn-link" href="/Account/ForgotPassword">Forgot your password?</a>
+            </div>
+        </form>
+    </div>
+</div>

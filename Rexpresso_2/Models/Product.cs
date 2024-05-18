@@ -20,5 +20,7 @@ namespace Rexpresso_2.Models
         public string ImageFileName { get; set; } = "";
 
         public DateTimeOffset CreatedAt { get; set; }
+
+        
     }
 }

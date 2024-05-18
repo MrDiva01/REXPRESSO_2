@@ -18,7 +18,7 @@ namespace Rexpresso_2.Controllers
         {
             var products = context.Products.OrderByDescending(p => p.Id).ToList();
             return View(products);
-        }
+        } 
 
         public IActionResult Create()
         {
