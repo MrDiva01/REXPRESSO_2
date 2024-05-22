@@ -28,6 +28,11 @@
                             <a class="nav-link text-black" asp-area="" asp-controller="MenuPage" asp-action="Cart">Cart</a>
                         </li>
                     </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-light text-black" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                        </li>
+                    </ul>
                     @* Hidden form with anti-forgery token *@
                     <form id="anti-forgery-form" asp-controller="Home" asp-action="Index" method="post" style="display: none;">
                         @Html.AntiForgeryToken()
@@ -36,6 +41,7 @@
             </div>
         </nav>
     </header>
+
 
 
 

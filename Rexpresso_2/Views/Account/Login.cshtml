@@ -4,40 +4,134 @@
     ViewData["Title"] = "Login";
 }
 
-<div class="row">
-    <div class="col-md-4 mx-auto rounded border p-3">
-        <h2 class="text-center mb-3">LOGIN PAGE</h2>
-        <hr />
-        @if (ViewData["ErrorMessage"] != null)
-        {
-            <div class="text-danger">@ViewData["ErrorMessage"]</div>
+<style>
+    
+
+    .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+
+    .success-message {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
         }
 
-        <form asp-action="Login" asp-controller="Account" method="post">
-            <div class="mb-3">
-                <label class="form-label">Email</label>
-                <input type="email" class="form-control" id="Email" name="Email" />
-            </div>
-            <div class="mb-3">
-                <label class="form-label">Password</label>
-                <input type="password" class="form-control" id="Password" name="Password" />
-            </div>
-            <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox" name="RememberMe" /> Remember me
-                </label>
-            </div>
-            <div class="row mb-3">
-                <div class="offset-sm-4 col-sm-4">
-                    <button type="submit" class="btn btn-primary">Log in</button>
-                </div>
-                <div class="col">
-                    <a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
-                </div>
-            </div>
-            <div>
-                <a class="btn btn-link" href="/Account/ForgotPassword">Forgot your password?</a>
-            </div>
-        </form>
-    </div>
+    .login-link,
+    #adminLoginButton {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        color: #007bff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+        .login-link:hover,
+        #adminLoginButton:hover {
+            text-decoration: underline;
+        }
+
+    #adminLoginButton {
+        background-color: #28a745;
+        color: white;
+        padding: 10px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+        #adminLoginButton:hover {
+            background-color: #218838;
+        }
+</style>
+
+
+<div class="container">
+    <h1>Sign In to REXPRESSO</h1>
+    <!-- Add a success message container -->
+    <div id="successMessage" class="success-message" style="display: none;">Account Created</div>
+    <form id="signupForm" action="process_signup.php" method="POST">
+        <!-- Change action to the PHP script that will handle form submission -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="contact">Contact Number:</label>
+        <input type="text" id="contact" name="contact" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Sign In">
+    </form>
+    <!-- Add a button to continue to login1 page -->
+    <a id="continueButton" class="login-link" href="login1.html">Continue</a>
+    <!-- Add a login as admin button -->
+    <div id="adminLoginButton" onclick="window.location.href='/Home/_Layout.cshtml'">Login as Admin</div>
+    <a class="login-link" href="login.html">Already have an account? Login here.</a>
 </div>
+
+
+<script>
+    document.getElementById("signupForm").addEventListener("submit", function (event) {
+        // Prevent the form from submitting normally
+        event.preventDefault();
+        // Display the success message
+        document.getElementById("successMessage").style.display = "block";
+        // Hide the submit button and form
+        document.getElementById("signupForm").style.display = "none";
+        // Display the continue button
+        document.getElementById("continueButton").style.display = "inline-block";
+    });
+</script>

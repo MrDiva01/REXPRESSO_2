@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 using Rexpresso_2.Models;
 using System;
+using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using System.Text.Encodings.Web;
 
@@ -93,7 +94,6 @@ public class AccountController : Controller
         return View();
     }
 
-
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Login(LoginViewModel model, string returnUrl = null)
@@ -105,7 +105,7 @@ public class AccountController : Controller
             if (result.Succeeded)
             {
                 _logger.LogInformation("User logged in.");
-                return LocalRedirect(returnUrl ?? "/");
+                return RedirectToAction("Index", "MenuPage"); // Redirect to the Menu page
             }
             if (result.RequiresTwoFactor)
             {

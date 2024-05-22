@@ -23,15 +23,21 @@ namespace Rexpresso_2.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddToCart([FromBody] int productId)
+        public IActionResult AddToCart([FromBody] ProductRequest request)
         {
-            var product = context.Products.FirstOrDefault(p => p.Id == productId);
-            if (product != null)
+            if (request == null)
             {
-                cartService.AddToCart(product);
+                return BadRequest("Invalid request.");
             }
 
-            return Ok();
+            var product = context.Products.FirstOrDefault(p => p.Id == request.ProductId);
+            if (product == null)
+            {
+                return NotFound("Product not found.");
+            }
+
+            cartService.AddToCart(product);
+            return Ok("Product added to cart successfully.");
         }
 
         public IActionResult Cart()
@@ -39,5 +45,10 @@ namespace Rexpresso_2.Controllers
             var cartItems = cartService.GetCartItems();
             return View(cartItems);
         }
+    }
+
+    public class ProductRequest
+    {
+        public int ProductId { get; set; }
     }
 }

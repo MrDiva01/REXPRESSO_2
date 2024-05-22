@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rexpresso_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6a59a6b123bcb72bd55eeb1ada23bcdc7621ed7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b14ce9a030dcfbe05d16a29268dd38820d7aa536")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rexpresso_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rexpresso_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
